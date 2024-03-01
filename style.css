@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body{
+    width: 100%;   
+    overflow-x: hidden;
+  }
+
+html{
+    background-color: #111729;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.quote-section{
+    width: 600px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background: url(/dccl--javascript-random-quote/bg-image-random-quote.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #20293A;
+}
+
+.quote-section h2{
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.tag-space{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.quote-section h3{
+    font-size: 0.625rem;
+    color: #6466E9;   
+    border: solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.quote-section p{
+    font-size: 1.5rem;
+    color: #97A3B6;
+    margin-top: 15px;
+}
+
+.interactive-section{
+    display: flex;
+    margin-top: 10px;
+}
+
+.interactive-section button{
+    width: 70px;
+    height: 45px; 
+    display: flex;
+    background-color: #111729;
+    justify-content: center;
+    align-items: center;
+    border: solid #20293A;
+    cursor: pointer;
+}
+
+.interactive-section button:nth-child(1){
+    border-radius: 10px 0 0 10px;
+} 
+
+.interactive-section button:nth-child(2){
+    border-radius: 0 10px 10px 0;
+}
+
+.interactive-section button:hover{
+    background-color: #20293A;
+}
